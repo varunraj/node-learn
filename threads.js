@@ -1,3 +1,7 @@
+
+// Below code will set the thread pool to 2 from default 4.
+process.env.UV_THREADPOOL_SIZE = 2;
+
 const crypto = require('crypto');
 
 const start = Date.now();

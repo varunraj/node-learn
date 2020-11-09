@@ -1,8 +1,8 @@
 // run "node myFile.js" in terminal.
 
 const pendingTimers = [];
-const pendingOSTasks = [];
-const pendingOperations = [];
+const pendingOSTasks = []; // things similar to n/w requests. asyc.js is example
+const pendingOperations = []; // code sent to thread loop. thread.js is an example
 
 
 
